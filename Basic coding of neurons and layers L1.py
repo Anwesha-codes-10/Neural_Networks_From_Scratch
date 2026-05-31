@@ -1,27 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# ### Coding a simple neuron with 3 inputs
-
-# In[4]:
-
-
 inputs=[1,2,3]
 weights=[0.2,0.8,-0.5]
 
 bias=2
 outputs={inputs[0]*weights[0] + inputs[1]*weights[1] + inputs[2]*weights[2] + bias}
 
-
-# In[5]:
-
-
 print(outputs)
-
-
-# ### Coding a simple neuron with 4 inputs
-
-# In[6]:
 
 
 inputs=[1.0,2.0,3.0,2.5]
@@ -30,12 +13,6 @@ weights=[0.2,0.8,-0.5,1.0]
 bias=2
 outputs={inputs[0]*weights[0] + inputs[1]*weights[1] + inputs[2]*weights[2] + inputs[3]*weights[3] + bias}
 print(outputs)
-
-
-# ### Coding the layers of neuron part with 4 inputs 4 weights per input and three outputs 
-
-# In[7]:
-
 
 inputs=[1,2,3,2.5]
 weights=[[0.2,0.8,-0.5,1],
@@ -55,13 +32,6 @@ outputs={
 }
 
 print(outputs)
-
-
-# ### SEE better if we use a for loop as it will get easier and convinient for us
-
-# In[8]:
-
-
 inputs=[1,2,3,2.5]
 weights=[[0.2,0.8,-0.5,1],
          [0.5,-0.91,0.26,-0.5],
