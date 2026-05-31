@@ -60,10 +60,3 @@ layer1_outputs=np.dot(i,w1.T) + b1
 layer2_outputs=np.dot(layer1_outputs,w2.T) + b2
 
 print(layer2_outputs)
-
-
-# In[ ]:
-
-
-
-
